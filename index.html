@@ -1,16 +1,89 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Jared Lucas</title>
+  <meta name="description" content="Building at the intersection of AI, philosophy, and careful craft. Creator of The Tiny Book of Wisdom.">
   <style>
-    body { font-family: system-ui, sans-serif; max-width: 600px; margin: 100px auto; padding: 20px; text-align: center; }
-    h1 { font-weight: 300; }
+    :root {
+      --text: #1a1a1a;
+      --text-secondary: #555;
+      --bg: #fafaf8;
+      --border: #e0ddd8;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: Georgia, 'Times New Roman', serif;
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.75;
+      font-size: 18px;
+      -webkit-font-smoothing: antialiased;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 2rem;
+    }
+
+    main {
+      max-width: 520px;
+      width: 100%;
+    }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 400;
+      margin-bottom: 1.25rem;
+    }
+
+    p {
+      margin-bottom: 1rem;
+      color: var(--text-secondary);
+    }
+
+    .links {
+      margin-top: 2rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border);
+    }
+
+    .links a {
+      display: inline-block;
+      margin-right: 1.5rem;
+      margin-bottom: 0.5rem;
+      font-family: system-ui, -apple-system, sans-serif;
+      font-size: 0.9rem;
+      color: var(--text);
+      text-decoration: none;
+      letter-spacing: 0.02em;
+    }
+
+    .links a:hover {
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
+    @media (max-width: 480px) {
+      body { font-size: 17px; align-items: flex-start; padding-top: 4rem; }
+      h1 { font-size: 1.6rem; }
+    }
   </style>
 </head>
 <body>
-  <h1>Jared Lucas</h1>
-  <p>Coming soon.</p>
+
+  <main>
+    <h1>Jared Lucas</h1>
+    <p>Building at the intersection of AI, philosophy, and careful craft. Based in Asheville, NC.</p>
+    <p>Creator of <a href="https://apps.apple.com/us/app/the-tiny-book-of-wisdom/id6757509362" style="color: var(--text); text-decoration: underline; text-underline-offset: 3px;">The Tiny Book of Wisdom</a> — 147 aphorisms from Forrest Landry's Immanent Metaphysics.</p>
+
+    <div class="links">
+      <a href="/blog/">Blog</a>
+    </div>
+  </main>
+
 </body>
 </html>

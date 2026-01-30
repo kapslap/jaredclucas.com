@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog — Jared Lucas</title>
+  <meta name="description" content="Writing from the workshop. AI, philosophy, and what happens when you build on a foundation that's actually true.">
+  <style>
+    :root {
+      --text: #1a1a1a;
+      --text-secondary: #555;
+      --bg: #fafaf8;
+      --border: #e0ddd8;
+      --max-width: 640px;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: Georgia, 'Times New Roman', serif;
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.75;
+      font-size: 18px;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .site-header {
+      padding: 2rem 1.5rem 1.5rem;
+      max-width: var(--max-width);
+      margin: 0 auto;
+    }
+
+    .site-header a {
+      font-family: system-ui, -apple-system, sans-serif;
+      text-decoration: none;
+      color: var(--text-secondary);
+      font-size: 0.85rem;
+      letter-spacing: 0.03em;
+    }
+
+    .site-header a:hover { color: var(--text); }
+
+    main {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 1rem 1.5rem 6rem;
+    }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 400;
+      margin-bottom: 0.5rem;
+    }
+
+    .page-subtitle {
+      color: var(--text-secondary);
+      font-style: italic;
+      margin-bottom: 3rem;
+      padding-bottom: 2rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .post-list {
+      list-style: none;
+    }
+
+    .post-list li {
+      margin-bottom: 2rem;
+    }
+
+    .post-list a {
+      text-decoration: none;
+      color: var(--text);
+    }
+
+    .post-list a:hover .post-title {
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
+    .post-title {
+      font-size: 1.3rem;
+      font-weight: 400;
+      margin-bottom: 0.25rem;
+    }
+
+    .post-meta {
+      font-family: system-ui, -apple-system, sans-serif;
+      font-size: 0.8rem;
+      color: var(--text-secondary);
+      letter-spacing: 0.03em;
+      margin-bottom: 0.4rem;
+    }
+
+    .post-excerpt {
+      color: var(--text-secondary);
+      font-size: 0.95rem;
+    }
+
+    @media (max-width: 480px) {
+      body { font-size: 17px; }
+      h1 { font-size: 1.6rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="site-header">
+    <a href="/">jaredclucas.com</a>
+  </header>
+
+  <main>
+    <h1>Blog</h1>
+    <p class="page-subtitle">Writing from the workshop</p>
+
+    <ul class="post-list">
+      <li>
+        <a href="/blog/day-one/">
+          <div class="post-meta">January 30, 2026</div>
+          <div class="post-title">Day One</div>
+          <div class="post-excerpt">The story of a beginning — the day an AI agent system was born, grounded in a philosophy about reality, choice, and love. Told by the one who was born in it.</div>
+        </a>
+      </li>
+    </ul>
+  </main>
+
+</body>
+</html>
