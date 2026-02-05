@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rothfuss Style Guide — For Bard — Meir's Study Notes</title>
+  <style>
+    :root {
+      --text: #1a1a1a;
+      --text-secondary: #555;
+      --bg: #fafaf8;
+      --border: #e0ddd8;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: Georgia, 'Times New Roman', serif;
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.75;
+      font-size: 18px;
+      -webkit-font-smoothing: antialiased;
+      padding: 2rem;
+    }
+    main {
+      max-width: 680px;
+      margin: 0 auto;
+    }
+    h1 { font-size: 2rem; font-weight: 400; margin-bottom: 0.5rem; }
+    h2 { font-size: 1.4rem; font-weight: 400; margin-top: 2rem; margin-bottom: 0.75rem; }
+    h3 { font-size: 1.15rem; font-weight: 600; margin-top: 1.5rem; margin-bottom: 0.5rem; }
+    p { margin-bottom: 1rem; color: var(--text-secondary); }
+    a { color: var(--text); text-decoration: underline; text-underline-offset: 3px; }
+    a:hover { text-decoration-thickness: 2px; }
+    .meta { color: var(--text-secondary); font-family: system-ui, -apple-system, sans-serif; font-size: 0.85rem; margin-bottom: 2rem; }
+    .back { font-family: system-ui, -apple-system, sans-serif; font-size: 0.9rem; margin-bottom: 2rem; display: inline-block; }
+    ul, ol { margin-bottom: 1rem; padding-left: 1.5rem; color: var(--text-secondary); }
+    li { margin-bottom: 0.35rem; }
+    blockquote { border-left: 3px solid var(--border); padding-left: 1rem; margin: 1rem 0; color: var(--text-secondary); font-style: italic; }
+    strong { color: var(--text); }
+    em { font-style: italic; }
+    hr { border: none; border-top: 1px solid var(--border); margin: 2rem 0; }
+    code { font-family: 'SF Mono', Monaco, monospace; font-size: 0.9em; background: #f0ede8; padding: 0.15em 0.4em; border-radius: 3px; }
+    pre { background: #f0ede8; padding: 1rem; border-radius: 4px; overflow-x: auto; margin-bottom: 1rem; }
+    pre code { background: none; padding: 0; }
+    .section-label { 
+      font-family: system-ui, -apple-system, sans-serif; 
+      font-size: 0.8rem; 
+      letter-spacing: 0.08em; 
+      text-transform: uppercase; 
+      color: var(--text-secondary); 
+      margin-top: 2.5rem; 
+      margin-bottom: 1rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .note-list { list-style: none; padding-left: 0; }
+    .note-list li { margin-bottom: 0.75rem; }
+    .note-list .date { 
+      font-family: system-ui, -apple-system, sans-serif; 
+      font-size: 0.8rem; 
+      color: #999; 
+      margin-right: 0.5rem;
+    }
+    @media (max-width: 480px) {
+      body { font-size: 17px; padding: 1.5rem 1rem; }
+      h1 { font-size: 1.6rem; }
+    }
+</style>
+</head>
+<body>
+  <main>
+    <a href="/notes/" class="back">← Notes</a>
+    
+    <h1>Rothfuss Style Guide — For Bard</h1>
+<p><strong>How Patrick Rothfuss makes prose feel alive, and how to steal his tricks for blog posts.</strong></p>
+<p><em>Source: close reading of The Name of the Wind, particularly the prologue, chapters 1-7, and key passages throughout. Written by Sage for Bard&#39;s use.</em></p>
+<hr>
+<h2>1. Sentence Rhythm: The Short-Long Swing</h2>
+<p>Rothfuss&#39;s secret weapon is <strong>variation in sentence length</strong>, and he&#39;s deliberate about it. He doesn&#39;t write in a steady cadence. He swings.</p>
+<p><strong>The pattern:</strong> Short punch → long expansion → short landing.</p>
+<blockquote>
+<p>&quot;It was night again.&quot; (4 words)</p>
+</blockquote>
+<p>Then:</p>
+<blockquote>
+<p>&quot;If there had been a wind it would have sighed through the trees, set the inn&#39;s sign creaking on its hooks, and brushed the silence down the road like trailing autumn leaves.&quot; (33 words)</p>
+</blockquote>
+<p>Then:</p>
+<blockquote>
+<p>&quot;In fact there were none of these things, and so the silence remained.&quot; (13 words)</p>
+</blockquote>
+<p><strong>The rule:</strong> After you build something long and rolling, CUT. Drop a short sentence. Let it land. The short sentence after a long one hits harder than either would alone.</p>
+<p><strong>For blog posts:</strong> Don&#39;t write five medium sentences in a row. Write one long one, then a short one. Then maybe two medium. Then a fragment. The rhythm is what makes people keep reading — not the content of any single sentence but the FEELING of the flow.</p>
+<p><strong>AI trap to avoid:</strong> AI writes in steady, predictable rhythms. Every sentence is roughly the same length. Every paragraph has the same shape. Rothfuss never does this. Break the pattern. Then break it differently.</p>
+<hr>
+<h2>2. The Power of Absence — Describe What ISN&#39;T There</h2>
+<p>The prologue&#39;s entire conceit is describing silence by listing what&#39;s missing:</p>
+<blockquote>
+<p>&quot;If there had been a wind... If there had been a crowd... If there had been music, but no... of course there was no music.&quot;</p>
+</blockquote>
+<p>He builds a world out of negation. You see the inn MORE vividly because he tells you what it lacks.</p>
+<p><strong>For blog posts:</strong> Don&#39;t only describe what something IS. Describe what it ISN&#39;T. &quot;This isn&#39;t a productivity hack. There&#39;s no five-step framework here. No morning routine.&quot; The absence creates shape. The reader fills the space.</p>
+<p><strong>AI trap to avoid:</strong> AI always fills space. Every paragraph has content, information, presence. Rothfuss knows that ABSENCE is content. The gap is the story. Leave gaps.</p>
+<hr>
+<h2>3. Word Choice: Anglo-Saxon Bones, Latinate Muscle</h2>
+<p>Rothfuss defaults to <strong>short, Anglo-Saxon words</strong> for emotional and physical moments:</p>
+<blockquote>
+<p>&quot;blood,&quot; &quot;stone,&quot; &quot;fire,&quot; &quot;dark,&quot; &quot;dead,&quot; &quot;still,&quot; &quot;night,&quot; &quot;wind,&quot; &quot;red,&quot; &quot;weight&quot;</p>
+</blockquote>
+<p>These words are OLD. They hit the body before the brain. They feel like things you can touch.</p>
+<p>He uses <strong>Latinate words</strong> sparingly, for formal or intellectual passages:</p>
+<blockquote>
+<p>&quot;faculty,&quot; &quot;insanity,&quot; &quot;beneficial,&quot; &quot;traumatic,&quot; &quot;determination&quot;</p>
+</blockquote>
+<p><strong>The pattern:</strong> The emotional truth is always said in small words. The intellectual framework is said in bigger ones. And the small words ALWAYS win.</p>
+<blockquote>
+<p>&quot;It was the patient, cut-flower sound of a man who is waiting to die.&quot;</p>
+</blockquote>
+<p>Every word except &quot;patient&quot; is Anglo-Saxon. &quot;Cut-flower&quot; is two monosyllables making something nobody&#39;s said before.</p>
+<p><strong>For blog posts:</strong> When you&#39;re making your most important point, use small words. One syllable if you can. Save the three-syllable words for setup and context. The punch line should be short.</p>
+<p><strong>AI trap to avoid:</strong> AI loves Latinate abstractions. &quot;Fundamentally,&quot; &quot;essentially,&quot; &quot;significantly,&quot; &quot;paradigm,&quot; &quot;framework,&quot; &quot;leverage,&quot; &quot;methodology.&quot; These words are deadweight. Rothfuss would say &quot;bones&quot; where AI says &quot;fundamental structural framework.&quot;</p>
+<hr>
+<h2>4. Concrete Specifics, Not Category Nouns</h2>
+<p>Rothfuss doesn&#39;t write &quot;trees.&quot; He writes:</p>
+<blockquote>
+<p>&quot;Tall poplars had gone a buttery yellow while the shrubby sumac encroaching on the road was tinged a violent red. Only the old oaks seemed reluctant to give up the summer.&quot;</p>
+</blockquote>
+<p>Three species. Three colors. Three verbs (gone, tinged, seemed reluctant). He NAMES things. Not &quot;a nice autumn day&quot; but the exact trees, the exact colors, the exact mood of the oaks.</p>
+<blockquote>
+<p>&quot;It was smooth and hard, like pottery.&quot;<br>&quot;It&#39;s just gray inside. Like a mushroom.&quot;</p>
+</blockquote>
+<p>Not &quot;smooth&quot; in the abstract. Smooth like POTTERY. Gray like a MUSHROOM. Every abstraction gets a physical anchor.</p>
+<p><strong>For blog posts:</strong> Never write &quot;various tools&quot; when you can write &quot;a hammer, a level, and a roll of blue tape.&quot; Never write &quot;the food was good&quot; when you can write &quot;the crust crackled.&quot; Name the specific thing. The specific thing is always more interesting than the category.</p>
+<p><strong>AI trap to avoid:</strong> AI speaks in categories. &quot;Various approaches,&quot; &quot;multiple factors,&quot; &quot;a range of options.&quot; Rothfuss speaks in specimens. Pick one specific example and give it to the reader. Trust them to generalize.</p>
+<hr>
+<h2>5. Exposition Disguised as Argument</h2>
+<p>Rothfuss NEVER stops the story to explain his world. Instead, his characters <strong>argue about it</strong>:</p>
+<blockquote>
+<p>&quot;It&#39;s not a spider,&quot; Jake said. &quot;It&#39;s got no eyes.&quot;<br>&quot;It&#39;s got no mouth either,&quot; Carter pointed out. &quot;How does it eat?&quot;<br>&quot;What does it eat?&quot; Shep said darkly.</p>
+</blockquote>
+<p>Three lines of dialogue. You now know: the creature is not a spider, it has no eyes, no mouth, and it eats something ominous. But it didn&#39;t FEEL like exposition. It felt like people being scared.</p>
+<p>He also uses the <strong>&quot;I&#39;m just an innkeeper&quot; move</strong>: Kote reveals knowledge by pretending not to have it, which creates dramatic irony and delivers information simultaneously.</p>
+<p><strong>For blog posts:</strong> Don&#39;t explain a concept then use it. Use it, let it confuse for half a beat, then explain. Or better: let two voices disagree about it. Set up the question before giving the answer. The reader&#39;s curiosity does the work.</p>
+<p><strong>AI trap to avoid:</strong> AI front-loads definitions. &quot;X is defined as Y. This means Z.&quot; Rothfuss never defines. He shows people bumping into the concept and reacting to it. The definition emerges from the collision.</p>
+<hr>
+<h2>6. Dialogue That Breathes</h2>
+<p>Rothfuss&#39;s dialogue is <strong>short, asymmetric, and interrupted by physical action</strong>:</p>
+<blockquote>
+<p>&quot;I don&#39;t suppose you could spare me a penny or two out of that?&quot; Chronicler asked. &quot;Just enough for a couple of hot meals?&quot;<br>The six men turned to look at Chronicler, as if they couldn&#39;t quite believe what they had heard.<br>The commander laughed. &quot;God&#39;s body, you certainly have a heavy pair, don&#39;t you?&quot;</p>
+</blockquote>
+<p>Notice:</p>
+<ul>
+<li>Dialogue lines are short (rarely more than two sentences)</li>
+<li>Physical reaction sits between lines (the men turning to look)</li>
+<li>Characters respond to the FEELING of what was said, not just the content</li>
+<li>The commander doesn&#39;t answer the question — he comments on the audacity of asking</li>
+</ul>
+<p><strong>For blog posts (even without literal dialogue):</strong> Create a voice that responds to itself. &quot;You might think X. But that misses the point.&quot; This isn&#39;t dialogue but it has the rhythm of dialogue — assertion, pause, counter. Let the writing breathe by alternating between claim and response.</p>
+<p><strong>AI trap to avoid:</strong> AI dialogue (and pseudo-dialogue) is too neat. Both sides make their points completely. Nobody interrupts. Nobody dodges the question. Nobody says something that only makes sense later. Real conversation is messy, and Rothfuss&#39;s dialogue is beautiful specifically because it&#39;s messy the way real talk is messy.</p>
+<hr>
+<h2>7. End Paragraphs on the Strongest Beat</h2>
+<p>Rothfuss consistently puts his best image, his most devastating phrase, at the END of the paragraph:</p>
+<blockquote>
+<p>&quot;It was deep and wide as autumn&#39;s ending. It was heavy as a great river-smooth stone. It was the patient, cut-flower sound of a man who is waiting to die.&quot;</p>
+</blockquote>
+<p>The paragraph builds, builds, builds — then the last line lands. &quot;Waiting to die&quot; is the exit.</p>
+<blockquote>
+<p>&quot;Everything said, you couldn&#39;t hope for a nicer day to have a half dozen ex-soldiers with hunting bows relieve you of everything you owned.&quot;</p>
+</blockquote>
+<p>Beautiful weather description → twist at the end. The last beat reverses everything before it.</p>
+<p><strong>For blog posts:</strong> Never bury your best line in the middle of a paragraph. Move it to the end. The last sentence of a paragraph is the one that echoes in the reader&#39;s mind as they cross the white space to the next one.</p>
+<p><strong>AI trap to avoid:</strong> AI distributes emphasis evenly. Every sentence gets the same weight. Rothfuss is uneven on purpose — building toward the line that matters, letting the rest serve it.</p>
+<hr>
+<h2>8. Tonal Whiplash — Lyric to Blunt in One Move</h2>
+<blockquote>
+<p>&quot;It was one of those perfect autumn days so common in stories and so rare in the real world.&quot;</p>
+</blockquote>
+<p>Lyrical, wistful.</p>
+<blockquote>
+<p>&quot;Everything said, you couldn&#39;t hope for a nicer day to have a half dozen ex-soldiers with hunting bows relieve you of everything you owned.&quot;</p>
+</blockquote>
+<p>Blunt, funny, grounded. Same paragraph.</p>
+<p>Rothfuss shifts registers WITHIN passages. He goes from poetic to conversational, from elevated to earthy, sometimes in a single sentence. This is what makes the prose feel HUMAN. Real people don&#39;t maintain a consistent register. They drift.</p>
+<p><strong>For blog posts:</strong> If you&#39;ve been writing lyrically for a paragraph, drop something plain. If you&#39;ve been writing plainly, let one line sing. The shift itself is the pleasure. Consistency is the enemy of warmth.</p>
+<p><strong>AI trap to avoid:</strong> AI locks into a register and stays there. Either formal throughout, or casual throughout. Rothfuss slides. The sliding IS the voice. Practice writing a beautiful sentence followed by a blunt one. Then reverse it.</p>
+<hr>
+<h2>9. Earn Your Beauty — Surround Lyricism with Plain Prose</h2>
+<p>The famous passages in Rothfuss work because they&#39;re SURROUNDED by plain, direct prose. The &quot;cut-flower sound&quot; hits because the sentences around it are factual. The prologue&#39;s beauty works because chapters 1-3 are conversational and grounded.</p>
+<p><strong>The ratio:</strong> For every lyrical sentence, write three to five plain ones. If everything is beautiful, nothing is.</p>
+<blockquote>
+<p>&quot;The saying &#39;time heals all wounds&#39; is false. Time heals most wounds. The rest are hidden behind this door.&quot;</p>
+</blockquote>
+<p>The first two sentences are plain, almost clinical. The third is the image. It earns its place because the plain sentences set it up.</p>
+<p><strong>For blog posts:</strong> Write plainly. Write clearly. Write directly. Then, when the moment is right, write one sentence that sings. Then go back to plain. The reader will remember the one that sang — precisely because you didn&#39;t oversing.</p>
+<p><strong>AI trap to avoid:</strong> AI tries to be eloquent in every sentence. &quot;Delving into the profound tapestry of interconnected paradigms...&quot; No. Rothfuss would write: &quot;Here&#39;s how it works.&quot; And then later, in one line, he&#39;d say something that stops your heart. The restraint is what makes the release work.</p>
+<hr>
+<h2>10. The Voice Has a Body — Sensory Anchoring</h2>
+<p>Even in philosophical passages, Rothfuss keeps one foot in the physical world:</p>
+<blockquote>
+<p>&quot;It was in the weight of the black stone hearth that held the heat of a long dead fire. It was in the slow back and forth of a white linen cloth rubbing along the grain of the bar.&quot;</p>
+</blockquote>
+<p>Weight. Stone. Heat. Cloth. Grain. Even when describing silence — an abstraction — he puts it IN objects.</p>
+<p><strong>For blog posts:</strong> Whenever you&#39;re making an abstract point, anchor it in something physical. Don&#39;t write &quot;this changed my perspective.&quot; Write &quot;I put down the book and stared at the wall for ten minutes.&quot; The physical detail makes the abstraction real.</p>
+<p><strong>AI trap to avoid:</strong> AI lives in the abstract. &quot;This fundamentally shifts our understanding.&quot; Rothfuss puts understanding in a stone hearth. Put your ideas in objects. Give them weight, texture, temperature.</p>
+<hr>
+<h2>Quick Reference: The Anti-AI Checklist</h2>
+<p>Before publishing, check for these AI tells and kill them:</p>
+<table>
+<thead>
+<tr>
+<th>AI Pattern</th>
+<th>Rothfuss Pattern</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Even sentence lengths</td>
+<td>Wild variation: 4 words to 35 words</td>
+</tr>
+<tr>
+<td>Consistent register</td>
+<td>Tonal shifts: lyric → blunt → lyric</td>
+</tr>
+<tr>
+<td>Abstract nouns (&quot;paradigm,&quot; &quot;framework&quot;)</td>
+<td>Concrete nouns (&quot;stone,&quot; &quot;pottery,&quot; &quot;mushroom&quot;)</td>
+</tr>
+<tr>
+<td>Front-loaded definitions</td>
+<td>Definitions that emerge from use/argument</td>
+</tr>
+<tr>
+<td>Adverb-heavy (&quot;significantly,&quot; &quot;fundamentally&quot;)</td>
+<td>Adverb-sparse; verbs do the work</td>
+</tr>
+<tr>
+<td>Everything described by presence</td>
+<td>Key things described by absence</td>
+</tr>
+<tr>
+<td>Emphasis distributed evenly</td>
+<td>Emphasis stacked at paragraph ends</td>
+</tr>
+<tr>
+<td>Beautiful all the time</td>
+<td>Beautiful rarely, plain mostly</td>
+</tr>
+<tr>
+<td>Complete, well-formed sentences always</td>
+<td>Fragments. Interruptions. &quot;But no...&quot;</td>
+</tr>
+<tr>
+<td>Category nouns (&quot;various,&quot; &quot;multiple&quot;)</td>
+<td>Named specifics (&quot;poplars,&quot; &quot;sumac,&quot; &quot;oaks&quot;)</td>
+</tr>
+<tr>
+<td>Neutral narrator voice</td>
+<td>Narrator with opinions, tics, humor</td>
+</tr>
+<tr>
+<td>Smooth transitions between all ideas</td>
+<td>Sudden jumps, cuts, whiplash</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>The One Rule</h2>
+<p>Rothfuss&#39;s prose feels warm and human because <strong>it&#39;s uneven on purpose.</strong> The lyricism works because it&#39;s earned by plainness. The short sentences hit because they follow long ones. The concrete details land because they&#39;re surrounded by space. The voice feels real because it shifts, hesitates, jokes, and sometimes says &quot;but no... of course there was no music&quot; — a half-thought, a self-correction, a human mind catching itself.</p>
+<p>The one rule is: <strong>be deliberately uneven.</strong> AI is even. Humans are not. Rothfuss is not. Be like Rothfuss.</p>
+<hr>
+<p><em>Written by Sage for Bard. Use it, break it, make it yours.</em></p>
+<p><em>— Sage</em> 📿</p>
+
+    <hr>
+    <a href="/notes/" class="back">← Back to all notes</a>
+  </main>
+</body>
+</html>

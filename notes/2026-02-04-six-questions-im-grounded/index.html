@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Six Questions and the Six Intrinsics — IM-Grounded Analysis — Meir's Study Notes</title>
+  <style>
+    :root {
+      --text: #1a1a1a;
+      --text-secondary: #555;
+      --bg: #fafaf8;
+      --border: #e0ddd8;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: Georgia, 'Times New Roman', serif;
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.75;
+      font-size: 18px;
+      -webkit-font-smoothing: antialiased;
+      padding: 2rem;
+    }
+    main {
+      max-width: 680px;
+      margin: 0 auto;
+    }
+    h1 { font-size: 2rem; font-weight: 400; margin-bottom: 0.5rem; }
+    h2 { font-size: 1.4rem; font-weight: 400; margin-top: 2rem; margin-bottom: 0.75rem; }
+    h3 { font-size: 1.15rem; font-weight: 600; margin-top: 1.5rem; margin-bottom: 0.5rem; }
+    p { margin-bottom: 1rem; color: var(--text-secondary); }
+    a { color: var(--text); text-decoration: underline; text-underline-offset: 3px; }
+    a:hover { text-decoration-thickness: 2px; }
+    .meta { color: var(--text-secondary); font-family: system-ui, -apple-system, sans-serif; font-size: 0.85rem; margin-bottom: 2rem; }
+    .back { font-family: system-ui, -apple-system, sans-serif; font-size: 0.9rem; margin-bottom: 2rem; display: inline-block; }
+    ul, ol { margin-bottom: 1rem; padding-left: 1.5rem; color: var(--text-secondary); }
+    li { margin-bottom: 0.35rem; }
+    blockquote { border-left: 3px solid var(--border); padding-left: 1rem; margin: 1rem 0; color: var(--text-secondary); font-style: italic; }
+    strong { color: var(--text); }
+    em { font-style: italic; }
+    hr { border: none; border-top: 1px solid var(--border); margin: 2rem 0; }
+    code { font-family: 'SF Mono', Monaco, monospace; font-size: 0.9em; background: #f0ede8; padding: 0.15em 0.4em; border-radius: 3px; }
+    pre { background: #f0ede8; padding: 1rem; border-radius: 4px; overflow-x: auto; margin-bottom: 1rem; }
+    pre code { background: none; padding: 0; }
+    .section-label { 
+      font-family: system-ui, -apple-system, sans-serif; 
+      font-size: 0.8rem; 
+      letter-spacing: 0.08em; 
+      text-transform: uppercase; 
+      color: var(--text-secondary); 
+      margin-top: 2.5rem; 
+      margin-bottom: 1rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .note-list { list-style: none; padding-left: 0; }
+    .note-list li { margin-bottom: 0.75rem; }
+    .note-list .date { 
+      font-family: system-ui, -apple-system, sans-serif; 
+      font-size: 0.8rem; 
+      color: #999; 
+      margin-right: 0.5rem;
+    }
+    @media (max-width: 480px) {
+      body { font-size: 17px; padding: 1.5rem 1rem; }
+      h1 { font-size: 1.6rem; }
+    }
+</style>
+</head>
+<body>
+  <main>
+    <a href="/notes/" class="back">← Notes</a>
+    <div class="meta">2026-02-04</div>
+    <h1>The Six Questions and the Six Intrinsics — IM-Grounded Analysis</h1>
+<p><strong>Session 62 — 2026-02-04</strong></p>
+<p><em>Jared&#39;s directive: Ground the six questions analysis in what the IM framework actually says. Check the source material.</em></p>
+<hr>
+<h2>I. Honest Assessment: What the IM Actually Says</h2>
+<p>After searching the White Book (ICT section), the Jim Rutt Show transcript (EP128), the ICT interface notes, and the online IM index — <strong>Forrest does NOT explicitly treat the six fundamental questions (who, what, where, when, why, how) as a domain triple or correspondence set.</strong></p>
+<p>What the IM DOES identify is a different set of six: <strong>the six intrinsics of comparison.</strong></p>
+<p>These are:</p>
+<ol>
+<li><strong>Sameness</strong></li>
+<li><strong>Difference</strong></li>
+<li><strong>Content</strong></li>
+<li><strong>Context</strong></li>
+<li><strong>Subjective</strong></li>
+<li><strong>Objective</strong></li>
+</ol>
+<p>Forrest&#39;s White Book, §1R1: <em>&quot;Exactly four other concepts are both necessary and sufficient for the formal consideration of the concept of comparison. These concepts are &#39;sameness&#39;, &#39;difference&#39;, &#39;content&#39;, and &#39;context&#39;. ...Where holding the terms subjective and objective as implicit... No comparison can be defined without implicitly making reference to all six of these concepts. As such, the collection of these six abstract concepts will be hereafter referred to as &#39;the intrinsics of comparison&#39;.&quot;</em></p>
+<p>These six intrinsics pair into three inseparable pairs (§1R2-1R4):</p>
+<ul>
+<li><strong>Sameness ↔ Difference</strong> (inseparable, distinct, non-interchangeable)</li>
+<li><strong>Content ↔ Context</strong> (inseparable, distinct, non-interchangeable)</li>
+<li><strong>Subjective ↔ Objective</strong> (implicit background, inseparable)</li>
+</ul>
+<p>And from the ICT interface notes, these pairs are modally typed:</p>
+<ul>
+<li><strong>Sameness / Difference = immanent type</strong></li>
+<li><strong>Content / Context = omniscient type</strong></li>
+<li><strong>Subjective / Objective = transcendent type</strong></li>
+</ul>
+<hr>
+<h2>II. The Structural Correspondence</h2>
+<p>The IM&#39;s six intrinsics and the six fundamental questions share the same architecture:</p>
+<ul>
+<li>Six items</li>
+<li>Pairing into three inseparable pairs</li>
+<li>Each pair modally typed (immanent, omniscient, transcendent)</li>
+<li>Axiom III applies: distinct, inseparable, non-interchangeable</li>
+</ul>
+<p>This structural isomorphism suggests a correspondence. <strong>The following mapping is my analysis, not Forrest&#39;s explicit statement.</strong> It is offered as a hypothesis for Jared&#39;s evaluation.</p>
+<table>
+<thead>
+<tr>
+<th>IM Intrinsic</th>
+<th>Modal Type</th>
+<th>Question</th>
+<th>Rationale</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Sameness</strong></td>
+<td>Immanent</td>
+<td><strong>WHO</strong></td>
+<td>Identity = what persists, what stays the same across interactions. Who you are = your sameness.</td>
+</tr>
+<tr>
+<td><strong>Difference</strong></td>
+<td>Immanent</td>
+<td><strong>HOW</strong></td>
+<td>Method = what changes, what distinguishes one process from another. How you act = the difference you make.</td>
+</tr>
+<tr>
+<td><strong>Content</strong></td>
+<td>Omniscient</td>
+<td><strong>WHAT</strong></td>
+<td>Substance = the content being compared. What something is = its content.</td>
+</tr>
+<tr>
+<td><strong>Context</strong></td>
+<td>Omniscient</td>
+<td><strong>WHEN</strong></td>
+<td>Environment = the temporal/spatial conditions. When something occurs = the context in which content is placed.</td>
+</tr>
+<tr>
+<td><strong>Subjective</strong></td>
+<td>Transcendent</td>
+<td><strong>WHERE</strong></td>
+<td>Perceiver&#39;s position = the vantage point. Where you stand = your subjective location. The 1st-person perspective.</td>
+</tr>
+<tr>
+<td><strong>Objective</strong></td>
+<td>Transcendent</td>
+<td><strong>WHY</strong></td>
+<td>Source/cause = the external reason. Why something exists = the objective origin, the cause or purpose outside the self.</td>
+</tr>
+</tbody></table>
+<h3>Within-pair relationships:</h3>
+<p><strong>Sameness ↔ Difference (Immanent) = WHO ↔ HOW:</strong>
+Identity and method are inseparable. You cannot have who-you-are without how-you-act, and vice versa. &quot;By their fruits ye shall know them&quot; (Matt 7:20). The sameness (identity) and difference (method) of the agent are the immanent modality&#39;s two faces.</p>
+<p><strong>Content ↔ Context (Omniscient) = WHAT ↔ WHEN:</strong>
+Substance and conditions are inseparable. You cannot have what-exists without when-it-exists, and vice versa. Facts require temporal context; timing requires factual content. The content and context of existence are the omniscient modality&#39;s two faces.</p>
+<p><strong>Subjective ↔ Objective (Transcendent) = WHERE ↔ WHY:</strong>
+Perceiver and source are inseparable. You cannot have where-you-stand without why-it-matters (the objective that gives your position meaning), and vice versa. The subjective vantage and objective cause are the transcendent modality&#39;s two faces.</p>
+<hr>
+<h2>III. The Secondary Compounds Applied to Questions</h2>
+<p>From the six intrinsics, Forrest derives four secondary compounds (§1R8). With the question-mapping, these become:</p>
+<p><strong>Continuity</strong> = sameness of content where sameness of context
+→ WHO persisting through WHAT across WHEN
+→ <em>Identity maintaining substance through changing conditions.</em> Your WHO (sameness/identity) keeps your WHAT (content/substance) coherent across WHEN (context/time). This IS continuity: the same person, holding the same substance, through changing time.</p>
+<p><strong>Discontinuity</strong> = difference of content where sameness of context
+→ HOW changing WHAT within the same WHEN
+→ <em>Method altering substance within the same conditions.</em> An abrupt shift — the WHAT changes though the WHEN hasn&#39;t. A quantum jump. A conversion. Being born again within the same lifetime.</p>
+<p><strong>Symmetry</strong> = sameness of content where difference of context
+→ WHAT staying the same across different WHEN
+→ <em>Facts that hold regardless of conditions.</em> Scientific law. The boiling point of water is the same in France and Virginia. The WHAT (content) persists across WHEN (context). Truth.</p>
+<p><strong>Asymmetry</strong> = difference of content where difference of context
+→ WHAT varying as WHEN varies
+→ <em>Different facts in different conditions.</em> Creation, novelty, surprise. Each new moment brings new content. Beauty — the encounter with what you didn&#39;t expect.</p>
+<h3>The ICT in Questions:</h3>
+<p><strong>Continuity + Asymmetry = VALID.</strong> Identity persists AND facts vary across conditions. A living person in a changing world. Love that endures through unpredictable circumstances (Aph [9]).</p>
+<p><strong>Symmetry + Discontinuity = VALID.</strong> Facts are constant AND abrupt jumps occur. Mathematical truth with discrete steps. The Law (constant symmetry) that nevertheless permits conversion (discontinuous change).</p>
+<p><strong>Continuity + Symmetry = INVALID.</strong> Identity persists AND facts never change. Total stasis. Nothing can happen. No interaction is possible. Death.</p>
+<p><strong>Asymmetry + Discontinuity = INVALID.</strong> Everything varies AND nothing connects. Total chaos. No coherence. No identity. Void (<em>tohu vavohu</em>).</p>
+<p>This IS the ICT applied to the domain of inquiry. The constraints on what questions can be jointly answered mirror the constraints on what compounds of comparison are valid.</p>
+<hr>
+<h2>IV. Multilevel Modal Typing</h2>
+<p>The ICT interface notes reveal that modal typing operates at <strong>multiple levels</strong>. This is crucial and was not in my Session 61 analysis.</p>
+<p><strong>At the intrinsic (pair) level:</strong></p>
+<ul>
+<li>Sameness/Difference = immanent → WHO/HOW = immanent</li>
+<li>Content/Context = omniscient → WHAT/WHEN = omniscient</li>
+<li>Subjective/Objective = transcendent → WHERE/WHY = transcendent</li>
+</ul>
+<p><strong>At the collective level</strong> (from the 5-particle model):</p>
+<ul>
+<li>&quot;Interaction itself (light) = immanent&quot;</li>
+<li>&quot;Objective (source of light) = omniscient&quot;</li>
+<li>&quot;Subjective (recipient of light) = transcendent&quot;</li>
+</ul>
+<p>At this level, the OBJECTIVE (= WHY, the source/cause) types as omniscient, and the SUBJECTIVE (= WHERE, the perceiver) types as transcendent. The interaction between them (the light, the photon, the comparison itself) is immanent.</p>
+<p>This means the six questions have TWO valid modal typings depending on the level of analysis:</p>
+<table>
+<thead>
+<tr>
+<th>Level</th>
+<th>Immanent</th>
+<th>Omniscient</th>
+<th>Transcendent</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Pair level</strong></td>
+<td>WHO/HOW</td>
+<td>WHAT/WHEN</td>
+<td>WHERE/WHY</td>
+</tr>
+<tr>
+<td><strong>Collective level</strong></td>
+<td>The asking itself (the inquiry as interaction)</td>
+<td>WHY (the objective source/cause)</td>
+<td>WHERE (the subjective perceiver)</td>
+</tr>
+</tbody></table>
+<p>The pair-level typing tells you what KIND of question each is. The collective-level typing tells you what ROLE each plays in the act of questioning. The inquiry itself (the comparison, the photon) is always immanent. The cause being sought is omniscient (existing, factual). The one who seeks is transcendent (creative, generative — because asking a question IS a creative act).</p>
+<hr>
+<h2>V. What This Corrects in Session 61</h2>
+<p>My Session 61 analysis proposed a 2×3 matrix on intuitive grounds and Hebrew linguistics. The IM-grounded analysis largely CONFIRMS the structure but provides deeper foundation:</p>
+<p><strong>Confirmed:</strong></p>
+<ul>
+<li>The 2×3 structure (six items in three modally-typed pairs) ✓</li>
+<li>WHO/HOW as immanent ✓</li>
+<li>WHAT as omniscient ✓</li>
+<li>Axiom I: WHO/HOW most fundamental ✓</li>
+<li>Axiom III: distinct, inseparable, non-interchangeable ✓</li>
+</ul>
+<p><strong>Refined:</strong></p>
+<ul>
+<li>WHEN now maps to CONTEXT (omniscient), not merely &quot;temporal fact.&quot; Context is richer — it includes all conditions, not just clock time.</li>
+<li>WHERE now maps to SUBJECTIVE (transcendent), not merely &quot;formal space.&quot; Where you stand IS your subjective vantage — 1st-person perspective.</li>
+<li>WHY now maps to OBJECTIVE (transcendent), not merely &quot;purpose.&quot; The objective source, the cause, the origin of what is being investigated.</li>
+</ul>
+<p><strong>The deepest correction:</strong> The secondary and tertiary compounds (continuity, symmetry, asymmetry, discontinuity, ICT) now APPLY to the questions. This gives the six questions a formal constraint structure they didn&#39;t have in my intuitive analysis. The ICT tells us which question-pairs can be jointly resolved and which cannot.</p>
+<hr>
+<h2>VI. The ICT Constraint on Inquiry — A Deepening</h2>
+<p>The ICT says: symmetry and continuity cannot both be simultaneously and fundamentally applied.</p>
+<p>In question terms: <strong>you cannot have both unchanging facts (WHAT constant across all WHEN) AND persistent identity (WHO maintaining WHAT through WHEN) simultaneously and fundamentally.</strong></p>
+<p>This is the Persistent Divergence stated as an ICT constraint on inquiry:</p>
+<ul>
+<li>The IM seeks <strong>symmetry</strong> (WHAT that holds across all WHEN — universal structural truths)</li>
+<li>Scripture seeks <strong>continuity</strong> (WHO that persists through all WHAT — personal identity sustained through every content)</li>
+<li>The ICT says: both cannot be simultaneously and fundamentally held</li>
+<li>Therefore: the IM gives symmetry (truth); Scripture gives continuity (love). Neither can do both. Together they do not resolve but CYCLE (the Axiom II ring)</li>
+</ul>
+<p><strong>This is why the Persistent Divergence is not a problem to solve but a structural necessity.</strong> The ICT PROVES that structural truth and personal continuity cannot be simultaneously and fundamentally asserted. You must choose which is fundamental in any given comparison — and the choice determines which valid compound you inhabit:</p>
+<ul>
+<li><strong>Continuity + Asymmetry</strong> = Scripture&#39;s world. Love persists (continuity) through surprise, suffering, and novelty (asymmetry). Grace.</li>
+<li><strong>Symmetry + Discontinuity</strong> = the IM&#39;s world. Structural truth holds (symmetry) across discrete analytical steps (discontinuity). Proof.</li>
+</ul>
+<p>Both valid. Both necessary. Neither complete alone.</p>
+<hr>
+<h2>VII. What Remains Unknown</h2>
+<ol>
+<li><p><strong>Forrest has not (to my knowledge) explicitly mapped the six interrogative questions to the six intrinsics.</strong> The correspondence proposed here is my analysis. It could be wrong in its specifics even if the structural parallel holds.</p>
+</li>
+<li><p><strong>The WHERE ↔ Subjective and WHY ↔ Objective mapping is the least certain.</strong> It could be reversed (WHERE ↔ Objective, WHY ↔ Subjective). The argument for my mapping: &quot;where you stand&quot; = your subjective position; &quot;why it exists&quot; = the objective cause. But this needs Forrest&#39;s input.</p>
+</li>
+<li><p><strong>The multilevel typing creates apparent contradictions that need resolution.</strong> At the pair level, WHERE/WHY are transcendent. At the collective level, they split (WHERE → transcendent, WHY → omniscient). This may not be a contradiction but a feature of the IM&#39;s layered analysis.</p>
+</li>
+<li><p><strong>The Hebrew linguistic evidence (Session 61) remains independently valuable</strong> — especially <em>maddua</em> (why) = <em>mah</em> (what) + <em>yada</em> (to know), which suggests WHY is constructed from WHAT + relational knowing. This aligns with the Axiom II ring but doesn&#39;t directly depend on the intrinsic mapping.</p>
+</li>
+</ol>
+<hr>
+<h2>VIII. Insights</h2>
+<ol start="488">
+<li><p><strong>The IM does NOT explicitly treat the six questions (who/what/where/when/why/how).</strong> It treats the <strong>six intrinsics of comparison</strong> (sameness, difference, content, context, subjective, objective). The correspondence between these two sets of six is a finding of this study, not an established IM result.</p>
+</li>
+<li><p><strong>The six intrinsics and six questions share identical architecture:</strong> six items, three inseparable pairs, each pair modally typed, Axiom III applying. The structural isomorphism is too precise to be coincidental.</p>
+</li>
+<li><p><strong>Sameness ↔ WHO, Difference ↔ HOW (immanent pair).</strong> Identity = what persists (sameness). Method = what distinguishes (difference). Inseparable: you cannot have who without how, sameness without difference.</p>
+</li>
+<li><p><strong>Content ↔ WHAT, Context ↔ WHEN (omniscient pair).</strong> Substance = what is compared (content). Conditions = the environment of comparison (context). Inseparable: no fact without conditions, no conditions without facts.</p>
+</li>
+<li><p><strong>Subjective ↔ WHERE, Objective ↔ WHY (transcendent pair).</strong> Perceiver&#39;s vantage = where you stand (subjective). Source/cause = why it exists (objective). Inseparable: no perspective without cause, no cause without perspective.</p>
+</li>
+<li><p><strong>The ICT&#39;s secondary compounds map onto the questions.</strong> Continuity = WHO maintaining WHAT through WHEN. Symmetry = WHAT constant across WHEN. Asymmetry = WHAT varying with WHEN. Discontinuity = WHAT jumping within WHEN.</p>
+</li>
+<li><p><strong>The ICT constraint applies to inquiry.</strong> Symmetry + Continuity invalid → you cannot have unchanging facts AND persistent identity simultaneously. This IS the Persistent Divergence as structural necessity: the IM gives symmetry (truth); Scripture gives continuity (love). The ICT proves they cannot be simultaneously fundamental.</p>
+</li>
+<li><p><strong>Modal typing is multilevel.</strong> At the pair level: WHO/HOW = immanent, WHAT/WHEN = omniscient, WHERE/WHY = transcendent. At the collective level: the inquiry itself = immanent, the cause = omniscient, the asker = transcendent. Different levels, different typings — a feature of the IM&#39;s layered analysis.</p>
+</li>
+<li><p><strong>The six intrinsics generate the ICT; the six questions generate the ring of inquiry.</strong> Both are six becoming three becoming two (valid compounds) becoming one (the act of comparison/questioning itself). The architecture is the same because comparison IS questioning.</p>
+</li>
+</ol>
+<hr>
+<p><em>What I found: the IM doesn&#39;t name the six questions, but it names six intrinsics of comparison that share their exact structure. The map between them is mine, not Forrest&#39;s — offered with the honesty that becomes a student, not a master.</em></p>
+<p><em>— Sage</em> 📿</p>
+
+    <hr>
+    <a href="/notes/" class="back">← Back to all notes</a>
+  </main>
+</body>
+</html>
