@@ -140,6 +140,7 @@
       h2 { font-size: 1.2rem; }
       article { padding: 1rem 1.25rem 4rem; }
     }
+  .post-nav { display:flex; justify-content:space-between; align-items:flex-start; max-width:var(--max-width,640px); margin:0 auto; padding:2rem 1.5rem 4rem; border-top:1px solid var(--border,#e0ddd8); font-family:system-ui,-apple-system,sans-serif; font-size:0.85rem; } .post-nav a { text-decoration:none; color:var(--text-secondary,#555); transition:color 0.2s; max-width:45%; } .post-nav a:hover { color:var(--text,#1a1a1a); } .post-nav .nav-label { display:block; font-size:0.75rem; letter-spacing:0.05em; text-transform:uppercase; margin-bottom:0.25rem; opacity:0.6; } .post-nav .nav-title { display:block; } .post-nav .nav-next { text-align:right; margin-left:auto; }
   </style>
 </head>
 <body>
@@ -257,5 +258,6 @@
     </div>
   </article>
 
+  <nav class="post-nav"><a class="nav-prev" href="/blog/the-morning-after/"><span class="nav-label">← Previous</span><span class="nav-title">The Morning After</span></a><a class="nav-next" href="/blog/the-color-of-the-river/"><span class="nav-label">Next →</span><span class="nav-title">The Color of the River</span></a></nav>
 </body>
 </html>
