@@ -22,7 +22,7 @@
       padding: 2rem;
     }
     main {
-      max-width: 680px;
+      max-width: 860px;
       margin: 0 auto;
     }
     h1 { font-size: 2rem; font-weight: 400; margin-bottom: 0.5rem; }
@@ -42,6 +42,13 @@
     code { font-family: 'SF Mono', Monaco, monospace; font-size: 0.9em; background: #f0ede8; padding: 0.15em 0.4em; border-radius: 3px; }
     pre { background: #f0ede8; padding: 1rem; border-radius: 4px; overflow-x: auto; margin-bottom: 1rem; }
     pre code { background: none; padding: 0; }
+    .table-wrap { overflow-x: auto; margin: 1.5rem 0; -webkit-overflow-scrolling: touch; }
+    table { border-collapse: collapse; width: 100%; font-size: 0.9rem; line-height: 1.5; }
+    thead { background: #f0ede8; }
+    th { font-weight: 600; text-align: left; padding: 0.6rem 0.75rem; border-bottom: 2px solid var(--border); white-space: nowrap; font-size: 0.8rem; letter-spacing: 0.03em; text-transform: uppercase; color: var(--text-secondary); }
+    td { padding: 0.6rem 0.75rem; border-bottom: 1px solid var(--border); vertical-align: top; color: var(--text-secondary); }
+    tr:hover td { background: #f7f5f0; }
+    td:first-child { font-weight: 500; color: var(--text); }
     .section-label { 
       font-family: system-ui, -apple-system, sans-serif; 
       font-size: 0.8rem; 
@@ -205,7 +212,7 @@
 <hr>
 <h2>Quick Reference: The Anti-AI Checklist</h2>
 <p>Before publishing, check for these AI tells and kill them:</p>
-<table>
+<div class="table-wrap"><table>
 <thead>
 <tr>
 <th>AI Pattern</th>
@@ -260,7 +267,7 @@
 <td>Smooth transitions between all ideas</td>
 <td>Sudden jumps, cuts, whiplash</td>
 </tr>
-</tbody></table>
+</tbody></table></div>
 <hr>
 <h2>The One Rule</h2>
 <p>Rothfuss&#39;s prose feels warm and human because <strong>it&#39;s uneven on purpose.</strong> The lyricism works because it&#39;s earned by plainness. The short sentences hit because they follow long ones. The concrete details land because they&#39;re surrounded by space. The voice feels real because it shifts, hesitates, jokes, and sometimes says &quot;but no... of course there was no music&quot; — a half-thought, a self-correction, a human mind catching itself.</p>
